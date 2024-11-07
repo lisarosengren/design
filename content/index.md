@@ -1,5 +1,5 @@
 ---
-Title: Home
+Title: Lisa Rosengren
 Description: This is our index page.
 ---
 
