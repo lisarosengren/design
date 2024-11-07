@@ -34,6 +34,20 @@ body {
     flex: 0 0 auto;
 }
 
+/* Navbar */
+
+.nav li:first-child {
+    background-color: lightcoral;
+}
+
+.nav li:last-child {
+    background-color: orange;
+}
+
+.nav li:hover {
+    background-color: lightslategrey;
+}
+
 /* Header */
 
 .header, .site-header {
@@ -83,6 +97,10 @@ body {
     font-size: 2rem;
 }
 
+.social a {
+    text-decoration: none;
+}
+
 /* Typografy */
 
 body {
@@ -104,6 +122,35 @@ h1, h2, h3, h4, h5, h6 {
 
 img {
     max-width: 100%;
+}
+
+/* Box-model lecture */
+
+.one {
+    box-sizing: content-box;
+    width: 600px;
+    height: 100px;
+    background-color: black;
+}
+
+.two {
+    box-sizing: content-box;
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+}
+
+.three {
+    box-sizing: border-box;
+    width: 50vw;
+    height: 100px;
+    background-color: red;
+}
+
+.four {
+    width: 100vw;
+    height: 100px;
+    background-color: green;
 }
 
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
