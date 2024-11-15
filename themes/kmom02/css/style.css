@@ -6427,21 +6427,48 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
   display: flex;
   flex-direction: column;
 }
 
-.header {
-  background-color: #faa;
+.main {
+  flex: 1 0 auto;
+}
+
+.header, .footer {
+  flex: 0 0 auto;
 }
 
 .main {
   width: 100%;
   max-width: 64rem;
   padding: 2rem;
-  background-color: #afa;
   margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #080101;
+}
+
+.site-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav a {
+  font-size: 3rem;
 }
 
 .footer {

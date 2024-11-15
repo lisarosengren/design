@@ -1,19 +1,64 @@
 .header {
-    display: flex;
-    flex-direction: row;
-    padding: 2rem;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #aaa;
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #aaa;
 }
 
 .site-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.nav a {
+.nav {
+  a {
+    font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
+  }
+
+  li:first-child {
+    background-color: rgb(240, 128, 128);
+  }
+
+  li:last-child {
+    background-color: rgb(255, 165, 0);
+  }
+
+  li:hover {
+    background-color: rgb(119, 136, 153);
+  }
+} 
+
+/* Title */
+
+.title,
+.logo {
+  padding: 3em 3em 3em 0;
+}
+
+@media (max-width: 767px) {
+  .title,
+  .logo {
+    padding: 1em 1em 1em 0;
+  }
+
+  .title {
+    min-width: 50%;
+  }
+
+  .logo {
+    max-width: 30%;
+  }
+}
+
+.title * {
+  color: #111;
+}
+
+.title p {
+  font-style: italic;
 }

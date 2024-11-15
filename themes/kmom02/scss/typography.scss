@@ -1,4 +1,42 @@
+
+html {
+  font-size: 100%;
+}
+
+p {
+  font-size: 1em;
+}
+
+@media (min-width: 64em) {
+  html {
+    font-size: 112.5%;
+  }
+}
+
 body {
-    line-height: 1.4;
-    font-family: 'Montserrat', sans-serif;
+  line-height: 1.4;
+  font-family: 'Montserrat', sans-serif;
+  word-spacing: -0.05em;
+  color: $font-color;
+}
+
+p,
+td,
+th,
+li,
+dd {
+  text-align: justify;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  margin-bottom: 1.4em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.6em;
+  font-weight: bold;
 }
