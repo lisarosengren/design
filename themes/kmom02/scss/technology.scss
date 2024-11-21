@@ -1,0 +1,36 @@
+/* technology.scss */
+
+.landing-page {
+  display: grid;
+  gap: $magic-number $magic-number;
+  margin-bottom: $magic-number;
+}
+
+.landing-page h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.box {
+  border: 1px solid #ccc;
+  padding: $magic-number;
+}
+
+.box:hover {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.technology {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.technology .article {
+  width: 60%;
+}
+
+.technology .menu {
+  width: 30%;
+}
