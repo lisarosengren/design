@@ -6,6 +6,13 @@ Typsnitt på de 5 mest besökta webbplatserna i Sverige.
 Urval
 -----------------------
 
+|               | Rubriktypsnitt | Brödtext |
+|---------------|----------------|----------|
+| Expressen.se  | siri           |          |
+| Ica.se        | Ica
+
+
+
 Typsnitt på de 5 mest besökta webbplatserna i Sverige enligt [Computer Sweden](https://computersweden.se/article/1282738/har-ar-de-100-sajter-som-far-mest-trafik-fran-google-i-sverige.html):
 
 Expressen.se
