@@ -1,0 +1,27 @@
+table {
+  font-size: 1em;
+  margin-bottom: $magic-number;
+  border-collapse: collapse;
+  width: 100%;
+
+  tr:nth-child(2n) {
+    background-color: #ddd;
+  }
+
+  tbody>tr:hover {
+    background-color: #faa;
+  }
+
+  td {
+    border-top: 1px solid #424242;
+  }
+
+  th {
+    text-align: left;
+  }
+
+  td,
+  th {
+    padding: 4px 12px;
+  }
+}

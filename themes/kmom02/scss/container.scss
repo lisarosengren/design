@@ -14,18 +14,15 @@ body {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: [first] 20% [second] auto [third] 20% [end];
+  grid-template-rows: [row1-start] auto [row2-start] auto [row3-start] auto [row-end];
   background-color: $background-color;
 }
 
 .main {
-  flex: 1 0 auto;
-}
-
-.header,
-.footer {
-  flex: 0 0 auto;
+  grid-column: second / third;
+  grid-row: row2-start / row3-start;
 }
 
 .main {

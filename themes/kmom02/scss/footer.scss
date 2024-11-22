@@ -1,20 +1,30 @@
 /* footer.scss */
 
 .footer {
-  display: flex;
-  flex-direction: row;
-  padding: 2rem;
-  justify-content: space-between;
+  grid-column: first / end;
+  grid-row: row3-start / row-end;
+  display: grid;
+  grid-template-columns: [first] 20% [second] auto [third] 20% [end];
+  grid-template-rows: [row1-start] auto [row-end];
   align-items: center;
+  padding: 2rem;
   background-color: $background-alternative-color;
   color: $font-alternative-color;
 }
-    
+
+.footer-text {
+  grid-column: first / second;
+  grid-row: row1-start / row-end;
+}
+
 .social { 
   a {
     text-decoration: none;
     font-size: 3rem;
     color: $font-alternative-color;
   }
+  grid-column: third / end;
+  grid-row: row1-start / row-end;
+  justify-self: end;
 }
 

@@ -1,25 +1,35 @@
 /* header.scss */
 
 .header {
+  grid-column: first / end;
+  grid-row: row1-start / row2-start;
   display: flex;
   flex-direction: row;
-  padding: 2rem;
-  justify-content: space-between;
-  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 0;
   background-color: #aaa;
+  justify-content: space-between;
 }
 
 .site-header {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
 }
 
 .nav {
+  align-self: flex-end;
   a {
     font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
+    font-size: 2rem;
+    padding: 0.5rem;
+  }
+
+  ul {
+    padding-bottom: 0;
+    align-self: flex-end;
   }
 
   li:first-child {
@@ -35,11 +45,17 @@
   }
 } 
 
+@media (max-width: 767px) {
+  .nav a {
+    font-size: 0.5rem;
+  }
+}
+
 /* Title */
 
 .title,
 .logo {
-  padding: 3em 3em 3em 0;
+  padding: 0 3em 1em 0;
 }
 
 @media (max-width: 767px) {

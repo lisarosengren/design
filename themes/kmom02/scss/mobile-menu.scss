@@ -9,12 +9,12 @@
   ul {
     display: flex;
     justify-content: flex-end;
-    padding: 1em 0;
+    padding: 0 0;
     list-style: none;
   }
 
   ul li {
-    padding: 0 1em;
+    padding: 0 0,5em;
   }
 }
 
@@ -32,6 +32,7 @@
     flex-direction: column;
   }
 
+
   .nav ul {
     flex-direction: column;
     padding-bottom: 1em;
@@ -48,14 +49,14 @@
     padding: 0.5em 0;
   }
 
-  .js .nav-toggle {
-    display: block;
-    float: right;
-    width: 2em;
-    margin: 0.6667em 0;
-    font-size: 1.5rem;
-    line-height: 2em;
-    text-align: center;
-    cursor: pointer;
-  }
+//   .js .nav-toggle {
+//     display: block;
+//     float: right;
+//     width: 2em;
+//     margin: 0.6667em 0;
+//     font-size: 1.5rem;
+//     line-height: 2em;
+//     text-align: center;
+//     cursor: pointer;
+//   }
 }

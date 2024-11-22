@@ -12,7 +12,7 @@
 }
 
 .box {
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   padding: $magic-number;
 }
 
@@ -24,7 +24,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: start;
+  align-items: baseline;
 }
 
 .technology .article {
@@ -33,4 +33,85 @@
 
 .technology .menu {
   width: 30%;
+}
+
+.css {
+  grid-column: span 1;
+  grid-row: auto;
+}
+
+.html {
+  grid-column: span 2;
+  grid-row: auto;
+}
+
+.javascript {
+  grid-column: span 2;
+  grid-row: auto;
+}
+
+.php {
+  grid-column: span 1;
+  grid-row: auto;
+}
+
+.python {
+  grid-column: span 3;
+  grid-row: auto;
+}
+
+.git {
+  grid-column: span 1;
+  grid-row: auto;
+}
+
+.sqlite {
+  grid-column: span 2;
+  grid-row: auto;
+}
+
+.h2-center {
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .landing-page h1 {
+    grid-column: span 1;
+  }
+
+  .css {
+    grid-column: span 1;
+  }
+  
+  .html {
+    grid-column: span 1;
+  }
+  
+  .javascript {
+    grid-column: span 1;
+  }
+  
+  .php {
+    grid-column: span 1;
+  }
+  
+  .python {
+    grid-column: span 1;
+  }
+  
+  .git {
+    grid-column: span 1;
+  }
+  
+  .sqlite {
+    grid-column: span 1;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .technology .article {
+    width: 100%;
+  }
 }
