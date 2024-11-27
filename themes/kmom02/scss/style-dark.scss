@@ -8,7 +8,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/regular';
 
 @import '../../node_modules/normalize.css/normalize';
-@import 'variables';
+@import 'variables-dark';
 
 @import 'typography';
 
@@ -28,6 +28,3 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 // @import 'test';
 
 /* Test av dark mode */
-.main {
-  background-color: yellow;
-}
