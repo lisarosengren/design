@@ -1,19 +1,19 @@
 table {
-  font-size: 1em;
+  font-size: 0.8em;
   margin-bottom: $magic-number;
   border-collapse: collapse;
-  width: 100%;
 
   tr:nth-child(2n) {
-    background-color: #ddd;
+    background-color: $table-nth-background;
   }
 
-  tbody>tr:hover {
-    background-color: #faa;
-  }
+  // tbody>tr:hover {
+  //   background-color: #faa;
+  // }
 
   td {
-    border-top: 1px solid #424242;
+    border-top: 1px solid $table-border;
+    border-bottom: 1px solid $table-border;
   }
 
   th {

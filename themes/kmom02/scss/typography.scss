@@ -16,7 +16,7 @@ p {
 
 body {
   line-height: 1.4;
-  font-family: 'Montserrat', sans-serif;
+  font-family: $main-font;
   word-spacing: -0.05em;
   color: $main-font-color;
 }
@@ -40,4 +40,9 @@ h5,
 h6 {
   margin-bottom: 0.6em;
   font-weight: bold;
+}
+
+:link,
+:visited {
+  color: $link-text-color;
 }

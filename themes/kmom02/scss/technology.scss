@@ -12,12 +12,12 @@
 }
 
 .box {
-  border: 2px solid #ccc;
+  border: 2px solid $code-border;
   padding: $magic-number;
 }
 
 .box:hover {
-  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 10px 10px 5px 0 $shadow;
 }
 
 .technology {
@@ -28,11 +28,11 @@
 }
 
 .technology .article {
-  width: 60%;
+  width: 80%;
 }
 
 .technology .menu {
-  width: 30%;
+  width: 20%;
 }
 
 .css {

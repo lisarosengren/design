@@ -1,0 +1,14 @@
+
+.color-table {
+  border-spacing: 4px;
+  border-collapse: separate;
+
+  td {
+    height: 50px;
+    width: 50px;
+    border: 1px solid $table-border;
+  }  
+}
+
+
+
