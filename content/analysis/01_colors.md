@@ -13,7 +13,7 @@ Uppgiften handlar om att dokumentera färgpalett och typografi för tre webbplat
 Urval
 -----------------------
 
-Jag har valt att undersöka webbplatser tillhörande Blekinge Tekniska Högskola (bth.se), Malmö stad (malmo.se) samt Sydsvenskan (sydsvenskan.se). Sydsvenskan valde jag eftersom det är en av mina mest besökta webbplatser, BTH eftersom den har koppling till skolan och Malmö stad eftersom jag inte riktigt visste vad jag skulle välja och jag bor i Malmö.
+Jag har valt att undersöka webbplatser tillhörande Blekinge Tekniska Högskola (bth.se), Malmö stad (malmo.se) samt Svenska Spel Tur (svenskaspel.se/tur). Svenska Spel Tur valde jag eftersom det var en webbplats jag precis hade besökt, BTH eftersom den har koppling till skolan och Malmö stad eftersom jag inte riktigt visste vad jag skulle välja och jag bor i Malmö.
 
 Metod
 -----------------------
@@ -30,6 +30,8 @@ Resultat
 
 #### BTH
 
+![BTH snapshot](../image/bth.png)
+
 <table class="color-table">
 <tr>
 <td style="background-color: #055064">
@@ -39,6 +41,8 @@ Resultat
 Ett monokromatiskt färgschema som utgår ifrån #055064 används. Även bilden i headern har fått ett filter i den färgen. I princip är det bara den samt en ljusare nyans, #05485A som används. Med undantag för textfärg och footer som är #333, samt lite ljusgrått för att särskilja olika innehåll. Webbplatsen ger ett lugnt och ”seriöst” intryck, vilket jag tror är det som eftersträvats.
 
 #### Malmö Stad
+
+![Malmö Stad snapshot](../image/malmo.png)
 
 <table class="color-table">
 <tr>
@@ -52,6 +56,8 @@ Ett monokromatiskt färgschema som utgår ifrån #055064 används. Även bilden 
 Malmö stad använder ett tetradiskt färgschema, med grönt, rosa, gult och blått. Det gröna är själva grunden. Det finns en smal svart header och svarta knappar. Färgerna är ganska ”dassiga”. Intrycket blir lekfullt men ändå ”städat”. Jag tror att de är nöjda med det.
 
 #### Svenska Spel Tur
+
+![Picture of me](../image/svenskaspeltur.png)
 
 <table class="color-table">
 <tr>
