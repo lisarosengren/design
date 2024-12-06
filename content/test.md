@@ -22,3 +22,9 @@ Hör nu på, goävanner, så ska jag för er berätta vad vår Emil gjorde en da
 <p class="worst-ever">
 Nästa hyss han gjorde var när han i grönsakssoppan dök på huvet ner og sen satt där stenhårt fast uti mor sins soppskål, ty hans öron var för stora, så det blev att fara till doktorn det med hast. Hujedamej, sånt barn han var, tror inte också ni, att den som blott en soppskål har vill ej ha gossar i?
 </p>
+
+<img src="image/movement.jpg?f=colorize,100,0,0,0" alt="Röd ton" />
+<img src="image/movement.jpg?f=negate" alt="Inverterade färger" />
+<img src="image/movement.jpg?convolve=draw" alt="Ritning" />
+<img src="image/movement.png?w=688&q=40&save-as=jpg" alt="PNG" />
+<img src="image/movement.jpg?w=688&q=20" alt="jpg" />

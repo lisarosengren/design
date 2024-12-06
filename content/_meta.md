@@ -1,5 +1,5 @@
 ---
-Logo: image/volcano.png
+Logo: image/volcano.png?save-as=gif
 Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.

@@ -27,6 +27,16 @@
   display: none;
 }
 
+.hidden {
+  display: none !important;
+}
+
+@media (max-width: 1200px) {
+  .nav a {
+    font-size: 80%;
+  }
+}
+
 @media (max-width: 767px) {
   .header {
     flex-direction: column;
@@ -49,14 +59,14 @@
     padding: 0.5em 0;
   }
 
-  //   .js .nav-toggle {
-  //     display: block;
-  //     float: right;
-  //     width: 2em;
-  //     margin: 0.6667em 0;
-  //     font-size: 1.5rem;
-  //     line-height: 2em;
-  //     text-align: center;
-  //     cursor: pointer;
-  //   }
+  .js .nav-toggle {
+    display: block;
+    float: right;
+    width: 2em;
+    margin: 0.6667em 0;
+    font-size: 1.5rem;
+    line-height: 2em;
+    text-align: center;
+    cursor: pointer;
+  }
 }

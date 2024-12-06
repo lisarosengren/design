@@ -24,13 +24,19 @@ body {
 p,
 td,
 th,
-li,
 dd {
   text-align: justify;
   overflow-wrap: break-word;
   word-wrap: break-word;
   margin-bottom: $magic-number;
 }
+
+li {
+  text-align: justify;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
 
 h1,
 h2,

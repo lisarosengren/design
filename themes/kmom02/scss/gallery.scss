@@ -1,0 +1,50 @@
+/* gallery.scss */
+
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
+
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: $magic-number $magic-number;
+  margin-bottom: $magic-number;
+  line-height: 0;
+}
+
+.imgbox {
+  grid-column: span 1;
+  grid-row: span 1;
+  aspect-ratio: 1;
+  border: solid 2px #000;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+
+@media (max-width: 767px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+}
