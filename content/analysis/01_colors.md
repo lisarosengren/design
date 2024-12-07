@@ -57,7 +57,7 @@ Malmö stad använder ett tetradiskt färgschema, med grönt, rosa, gult och bl�
 
 #### Svenska Spel Tur
 
-![Picture of me](../image/svenskaspeltur.png)
+![Svenska Spel Tur snapshot](../image/svenskaspeltur.png)
 
 <table class="color-table">
 <tr>
